@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="256" height="256"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <path id="Path_3" data-name="Path 3" d="M0,0H226.546V105.486H0Z" transform="translate(14 62.955)" fill="#c2e6ff"/>
+    <path id="Path_4" data-name="Path 4" d="M45.592,0,91.185,50.93H0Z" transform="translate(171.293 199.601) rotate(-179)" fill="#c2e6ff"/>
+    <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(6.393 55.994)">
+      <g id="help-svgrepo-com" transform="translate(50.338 -120.766)">
+        <g id="Group_2" data-name="Group 2" transform="translate(-50.338 120.766)">
+          <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+            <path id="Path_2" data-name="Path 2" d="M219.488,101.882H19.726A19.749,19.749,0,0,0,0,121.608v79.9a19.749,19.749,0,0,0,19.726,19.726H90.093l21.217,21.218a11.736,11.736,0,0,0,16.6,0l21.218-21.218h70.363a19.749,19.749,0,0,0,19.726-19.726v-79.9A19.749,19.749,0,0,0,219.488,101.882Zm12.235,99.631a12.249,12.249,0,0,1-12.235,12.235H147.57a3.745,3.745,0,0,0-2.725,1.176l-22.235,22.235a4.245,4.245,0,0,1-6,0L94.392,214.944a3.745,3.745,0,0,0-2.744-1.2H19.726A12.249,12.249,0,0,1,7.491,201.512v-79.9a12.249,12.249,0,0,1,12.235-12.235H219.487a12.249,12.249,0,0,1,12.235,12.235v79.9Z" transform="translate(0 -101.882)" fill="#c2e6ff"/>
+          </g>
+        </g>
+      </g>
+      <text id="Help_Desk_WP" data-name="Help Desk WP" transform="translate(24.607 72.006)" fill="#211212" font-size="30" font-family="Sathu"><tspan x="0" y="0">Help Desk WP</tspan></text>
+      <path id="Path_1" data-name="Path 1" d="M64,0A64,64,0,1,1,0,64,64,64,0,0,1,64,0Z" transform="translate(2.607 1.006)" fill="none"/>
+    </g>
+  </g>
+</svg>

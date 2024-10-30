@@ -1,0 +1,406 @@
+$mainColor: #0051af;
+$boxShadowColor: #344585;
+
+body {
+    background-color: #e5e8f3 !important;
+}
+
+#helpdesk-user-dashboard {
+    max-width: 960px;
+    width: 100%;
+    margin: 50px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+
+    .primary {
+        color: $mainColor;
+    }
+
+    p {
+        margin: 14px 0 8px;
+        color: hsl(0, 0%, 50%);
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 18px;
+        color: hsl(0deg 0% 39%);
+        font-weight: 400;
+    }
+
+    input[type="text"],
+    textarea {
+        border: 1px solid #8fa3f1;
+        border-radius: 7px;
+        padding: 10px 20px;
+        color: hsl(0, 0%, 50%);
+        line-height: 1.5 !important;
+        font-size: 1rem;
+        width: 100%;
+        background: transparent;
+    }
+
+    input[type="text"]:focus,
+    textarea:focus {
+        border-color: #317fdb;
+    }
+
+    .css-1s2u09g-control {
+        border-color: #8fa3f1;
+        border-radius: 7px;
+    }
+
+    span.css-1okebmr-indicatorSeparator {
+        background-color: #8fa3f1 !important;
+    }
+
+    svg.css-8mmkcg {
+        fill: #8fa3f1;
+    }
+
+    .css-1pahdxg-control {
+        border-color: #8fa3f1 !important;
+        box-shadow: none;
+        border-radius: 7px;
+    }
+
+    .helpdesk-upload {
+        background: transparent;
+        border: 1px solid $mainColor;
+        color: $mainColor;
+        box-shadow: unset;
+    }
+
+    .helpdesk-upload:hover {
+        color: #fff;
+        background: $mainColor;
+    }
+}
+
+button#new-ticket {
+    text-transform: capitalize;
+    padding-right: 33px;
+    padding-left: 12px;
+}
+
+button#new-ticket:after {
+    content: '';
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='far' data-icon='edit' class='svg-inline--fa fa-edit fa-w-18' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='%230051af' d='M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z'%3E%3C/path%3E%3C/svg%3E");
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    right: 9px;
+}
+
+button#new-ticket:hover {
+    color: $mainColor;
+    text-decoration: underline;
+    background-color: inherit;
+}
+
+.helpdesk-ticket {
+    background: #fff;
+    padding: 13px 25px;
+    margin: 10px 0;
+    border-radius: 7px;
+    border: 1px solid #dbe0f3;
+    box-shadow: 0 0 20px -15px $boxShadowColor;
+    position: relative;
+}
+
+h4.ticket-title {
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.2s;
+    margin: 7px 0 5px 0;
+}
+
+.ticket-meta {
+    position: relative;
+    margin-bottom: 3px;
+
+    div {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 13px;
+        color: #858585;
+        font-weight: 300;
+    }
+}
+
+.MuiPagination-root {
+    margin-top: 15px;
+}
+
+.ticket-title:hover {
+    color: #8fa3f1 !important;
+}
+
+form.helpdesk-add-ticket {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #dbe0f3;
+    box-shadow: 0 0 20px -15px $boxShadowColor;
+}
+
+.css-1cclsxm-MuiButtonBase-root-MuiPaginationItem-root:hover,
+ul.MuiPagination-ul button:focus {
+    background-color: #8fa3f1 !important;
+    outline: none;
+}
+
+.helpdesk-back {
+    border: 1px solid $mainColor;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.helpdesk-back:hover {
+    text-decoration: underline;
+}
+
+.helpdesk-w-50 {
+    width: 50%;
+    display: inline-block;
+}
+
+.helpdesk-submit-btn {
+    text-align: right;
+    margin: 10px 0;
+}
+
+.helpdesk-add-ticket .helpdesk-submit {
+    text-align: right;
+}
+
+.helpdesk-submit {
+    input[type="submit"] {
+        background: $mainColor;
+        border: 1px solid $mainColor;
+        border-radius: 4px;
+        color: #fff;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        transition: all .3s;
+        cursor: pointer;
+        height: 42px;
+    }
+
+    input[type="submit"]:hover {
+        background: #fff;
+        color: $mainColor;
+    }
+}
+
+.helpdesk-tickets {
+    width: 70%;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #dbe0f3;
+    border-radius: 12px;
+    box-shadow: 0 0 20px -15px $boxShadowColor;
+    padding: 20px 30px 30px;
+}
+
+.helpdesk-properties {
+    width: 28%;
+    background: #fff;
+    border: 1px solid #dbe0f3;
+    border-radius: 12px;
+    box-shadow: 0 0 20px -15px $boxShadowColor;
+    padding: 19px;
+    margin-left: 10px;
+    float: right;
+
+    button {
+        text-transform: capitalize;
+        background: $mainColor;
+        border-radius: 7px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    button:focus {
+        background: #317fdb;
+        outline: none;
+    }
+
+    .css-319lph-ValueContainer {
+        padding: 5px !important;
+        font-size: 13px;
+    }
+
+    .css-319lph-ValueContainer {
+        padding: 5px !important;
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    input {
+        height: 30px !important;
+    }
+}
+
+.helpdesk-single-ticket h1 {
+    font-size: 24px;
+}
+
+.ticket-reply {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px 15px;
+}
+
+span.by-name,
+span.reply-date {
+    color: hsl(0, 0%, 50%);
+    font-size: 13px;
+}
+
+span.reply-date {
+    float: right;
+    margin-top: 5px;
+}
+
+.helpdesk-editor {
+    .ProseMirror {
+        border: 1px solid #8fa3f1;
+        border-radius: 7px;
+        padding: 5px 20px;
+        color: hsl(0, 0%, 50%);
+        min-height: 180px;
+    }
+
+    button {
+        cursor: pointer;
+        border: unset;
+        color: #8fa3f1;
+        line-height: 1.5;
+        font-size: 1rem;
+        padding: 4px 10px;
+        background: transparent !important;
+    }
+
+    button:hover {
+        background: transparent;
+        color: #8fa3f1;
+    }
+}
+
+.ticket-reply-images {
+    border-top: 1px solid #e3e3e3;
+    padding-top: 15px;
+}
+
+.helpdesk-image img {
+    cursor: pointer;
+}
+
+.helpdesk-image-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.helpdesk-delete-ticket {
+    opacity: 0;
+    position: absolute !important;
+    top: -15px;
+    right: -15px;
+}
+
+.helpdesk-ticket:hover .helpdesk-delete-ticket {
+    opacity: 1;
+}
+
+.helpdesk-delete-ticket:hover {
+    background: inherit !important;
+}
+
+.helpdesk-delete-ticket:hover svg {
+    fill: #f39e9e;
+}
+
+.refresh-ticket {
+    display: inline-block;
+
+    button:hover {
+        background: transparent;
+    }
+
+    button:focus {
+        background: transparent;
+        outline: none;
+    }
+}
+
+.helpdesk-ticket[data-ticket-status="Close"] {
+    opacity: 0.7;
+}
+
+.form-ticket-select input {
+    height: 32px !important;
+}
+
+.form-ticket-title {
+    height: 46px !important;
+}
+
+.helpdesk-single-ticket h1,
+.helpdesk-properties h3 {
+    font-weight: 500;
+    color: inherit;
+    margin: 7px 0 !important;
+}
+
+.helpdesk-image {
+    display: inline-block;
+    margin-right: 15px;
+
+    img {
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 768px) {
+    .helpdesk-tickets {
+        width: 100%;
+        order: 2;
+    }
+
+    .helpdesk-properties {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .helpdesk-properties {
+        order: 1;
+    }
+
+    #helpdesk-user-dashboard {
+        display: flex;
+        flex-flow: column;
+    }
+}

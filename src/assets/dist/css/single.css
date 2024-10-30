@@ -1,0 +1,34 @@
+body {
+  background: #fbfbfb !important;
+}
+
+.helpdesk-docs-single {
+  width: 100%;
+  max-width: 860px;
+  margin: 30px auto;
+  color: #393f4c;
+  line-height: 1.6;
+}
+.helpdesk-docs-single p {
+  font-size: 18px;
+}
+.helpdesk-docs-single .docs-title {
+  font-size: 36px;
+  margin: 24px 0;
+}
+.helpdesk-docs-single h1,
+.helpdesk-docs-single h2,
+.helpdesk-docs-single h3,
+.helpdesk-docs-single h4,
+.helpdesk-docs-single h5,
+.helpdesk-docs-single h6 {
+  margin: 16px 0;
+}
+
+.helpdesk-breadcrumbs a {
+  color: #6176a3;
+  text-decoration: none;
+  margin-right: 3px;
+}
+
+/*# sourceMappingURL=single.css.map */
